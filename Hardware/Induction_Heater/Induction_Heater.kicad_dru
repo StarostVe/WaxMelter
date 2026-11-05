@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "Clearance_SELV_to_NET"
+    (condition "A.NetClass == 'SELV' && B.NetClass == 'NET'")
+    (constraint clearance (min 1.7mm))
+)

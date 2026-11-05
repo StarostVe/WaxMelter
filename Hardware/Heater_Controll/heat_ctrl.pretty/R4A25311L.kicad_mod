@@ -1,0 +1,105 @@
+(footprint "R4A25311L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Sub-miniature slide switch, vertical, SMT J bend https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.pdf")
+	(tags "switch DPDT SMT")
+	(property "Reference" "REF**"
+		(at 0.1 -0.1 0)
+		(layer "F.SilkS")
+		(uuid "4a28f549-b81f-41c2-9b59-d86a9dd0fa45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R4A25311L"
+		(at 0 3.15 0)
+		(layer "F.Fab")
+		(uuid "e6a7401c-375d-4fc4-8dec-c76f63fe9b41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d58a085-ce11-4b2b-8fef-8c2e3ab6998e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39aeaa00-b57e-4245-b27f-b0918ecdcbc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3 -1.75)
+		(end 3 1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "72605bbb-d6af-4991-88f2-5223c3882435")
+	)
+	(fp_rect
+		(start -3.2 -1.8)
+		(end 3.2 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "73e32adc-5fd4-4bed-8422-f22ee15aa974")
+	)
+	(pad "1" smd roundrect
+		(at -3.875 0)
+		(size 1.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "0c37046e-1ab9-462c-8486-abcc7b183d66")
+	)
+	(pad "2" smd roundrect
+		(at 3.875 0)
+		(size 1.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "914defe3-16f3-4fda-9ff7-3ae3d0326c80")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DPDT_CK_JS202011JCQN.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
